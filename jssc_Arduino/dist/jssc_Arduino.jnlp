@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="jssc_Arduino.jnlp">
+  <information>
+    <title>jssc_Arduino</title>
+    <vendor>acast</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="jssc_Arduino.jar" size="4452" download="eager" />
+    <jar href="lib\jssc.jar" size="152500" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="jssc_Arduino" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="JavaFX_jssc_Uno"  name="jssc_Arduino" />
+  <update check="always"/>
+</jnlp>
